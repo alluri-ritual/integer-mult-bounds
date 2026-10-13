@@ -1,0 +1,44 @@
+{
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "python": "3.14.3",
+  "source": "local macOS execution; cloud Linux not yet run",
+  "positive_control": {
+    "baseline_kappa": "1661634653669567/1000000000000000000",
+    "full_admission": false,
+    "global_profile": {
+      "1": 183457,
+      "2": 24336,
+      "3": 30961,
+      "4": 13968,
+      "44": 1,
+      "48": 2396,
+      "5": 4032,
+      "8": 576
+    },
+    "local_profile": {
+      "1": 2548,
+      "2": 338,
+      "3": 430,
+      "4": 194,
+      "5": 56,
+      "8": 8
+    },
+    "projected_improvement": false,
+    "projected_kappa": "1661634653669567/1000000000000000000",
+    "scope": "Exact local scalar/frame checks and conditional all72 profile pricing only. Native phases, physical ownership, full invoice, hosted precision and cold composition must be rebuilt independently before claiming a new kappa.",
+    "status": "LOCAL_PASS_PROJECTED_ONLY",
+    "verified_incumbent_kappa": "1661634653669567/1000000000000000000",
+    "word_content_sha256": "1e1d99ba7aab877d6b573c41f7030ee73de9a52fee51d0a822ddaae71251999f"
+  },
+  "negative_controls_rejected": [
+    "forged_cheaper_profile",
+    "wrong_scalar_map",
+    "illegal_frame_chain",
+    "changed_global_rank_mass"
+  ],
+  "commands": [
+    "python3 -B research/fork-flush-kappa/prepare.py --out ../fork-flush-seed",
+    "python3 -B research/fork-flush-kappa/screen.py --word ../fork-flush-seed/WORD.json.gz --out ../fork-flush-positive",
+    "python3 -B research/fork-flush-kappa/test_screen.py"
+  ]
+}

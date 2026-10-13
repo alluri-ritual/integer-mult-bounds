@@ -1,0 +1,53 @@
+{
+  "base_commit": "f567884aeb8851b6e794af1184119a3bfbe1e631",
+  "kappa": "1661634653669567/1000000000000000000",
+  "word_content_sha256": "1e1d99ba7aab877d6b573c41f7030ee73de9a52fee51d0a822ddaae71251999f",
+  "seed_archive": "research/community-frontier799-audit/integrated799-replay.tar.gz",
+  "seed_member": "native/jx/FULL-WORD.json.gz",
+  "local": {
+    "v": 112,
+    "h": 9,
+    "R": 504,
+    "entering": 216,
+    "lowends": 126,
+    "coldends": 72,
+    "width_inventory": {
+      "4": 80,
+      "5": 32,
+      "7": 54,
+      "8": 122,
+      "9": 216
+    },
+    "local_profile": {
+      "1": 2548,
+      "2": 338,
+      "3": 430,
+      "4": 194,
+      "5": 56,
+      "8": 8
+    }
+  },
+  "global_profile": {
+    "1": 183457,
+    "2": 24336,
+    "3": 30961,
+    "4": 13968,
+    "5": 4032,
+    "8": 576,
+    "44": 1,
+    "48": 2396
+  },
+  "sha256": {
+    "research/gauge44-frames-x/independent/audit_local.py": "03afcfc9da428b3f6edac81c1fee7f277ab81b64998efae78380b63498dec6cd",
+    "research/gauge44-frames-x/independent/price_profile.py": "d2f548ad6b99f64a8ca5fbaf822a89560bb99359957ce3420b497f6a46fc0acf",
+    "research/gauge44-frames-x/inputs/PR589-EXPECTED.json": "b9f0e5ca038abe837b0007c8fe006f366a6f02009244ac57705a8a200e2301f4",
+    "research/gauge44-frames-x/data/UPSTREAM-PINS.json": "ccc37ab7fbf78947fe02c7f57ea672d2e4eae8454cb1158ed964c75bf423869b",
+    "research/gauge44-frames-x/data/PLAN.json": "5f40e7ccfca61f298539b4f41286d2a9d62caf947057f9cec82aa53f73f707fd",
+    "certificates/selected-result.json": "9873519224e2db72d6a8c926f51e3e75129671e467948c6f6b03744f8bcfc699",
+    "research/community-frontier799-audit/integrated799-replay.tar.gz": "70dfdfcf2ff95352c6020ee9dfca6dca9032b33c10daed3f3dc574c014f4e2cb",
+    "research/community-k492-audit/pr622/replay/baseline558/complex-global/base/split-centres/CANONICAL-WORD.json.gz": "66d3c3c70983224650643a0a05a21ac6c6959f84d0f4528650601016f5a76844",
+    "research/complex-k492-owner-repair/vendor/multicold/engines/moment.py": "81cbc864e106418fc7854322746f72180cb8110ff39f74450a3b8d55a82c1482",
+    "research/complex-k492-owner-repair/vendor/multicold/engines/base_two_moment.py": "aee70c242a2f1d225528fabe2002e1564d1dc884797c07d28a831c7878ee9098",
+    "research/complex-k492-owner-repair/vendor/multicold/engines/outer.py": "c1ebb52163a7219504c728a5c2b098bf1e50bf20148a2879c5a74c3cadc7c03c"
+  }
+}
