@@ -22,6 +22,13 @@ verified incumbent. The paper provides no promised gain on this problem.
 
 ## Portable setup
 
+The `research/fork-flush-cloud-port` delivery branch intentionally carries only
+these research files on the user's older fork baseline. Before running anything
+there, use `bash research/fork-flush-kappa/start-cloud.sh`. It checks out the
+pinned upstream base into `/tmp/integer-mult-kappa`, overlays this package and
+bootstraps dependencies. Continue in that reconstructed checkout. This avoids
+publishing unrelated upstream workflow changes through the user's OAuth token.
+
 On a Linux Codex cloud environment with Python 3.11+, git, g++, and sudo:
 
 ```sh
